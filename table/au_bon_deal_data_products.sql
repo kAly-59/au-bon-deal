@@ -1,14 +1,14 @@
-CREATE TABLE au_bon_deal_data_product (
+CREATE TABLE au_bon_deal_data_products (
     product_uuid UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    product_name VARCHAR(50),
+    product_name VARCHAR(50) NOT NULL,
     product_description VARCHAR(50),
-    product_price DECIMAL(10, 2),
-    product_quantity INT,
+    product_price DECIMAL(10, 2) NOT NULL CHECK (product_price >= 0),
+    product_quantity INT NOT NULL CHECK (product_quantity >= 0),
     created_at DATE,
     updated_at DATE
 );
 
-INSERT INTO au_bon_deal_data_product (product_name, product_description, product_price, product_quantity, created_at, updated_at)
+INSERT INTO au_bon_deal_data_products (product_name, product_description, product_price, product_quantity, created_at, updated_at)
 VALUES 
     ('Product A', 'Description of Product A', 100.50, 50, CURRENT_DATE, CURRENT_DATE),
     ('Product B', 'Description of Product B', 150.75, 40, CURRENT_DATE, CURRENT_DATE),
