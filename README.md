@@ -12,4 +12,9 @@
 [Merise](doc/merise.md)  
 [Règle de gestion](doc/regle_de_gestion.md)
 
+### Table
+[Table Users](table/au_bon_deal_data_users.sql)  
+[Table Orders](table/au_bon_deal_data_orders.sql)  
+[Table Products](table/au_bon_deal_data_products.sql)  
+
 </div>
