@@ -8,9 +8,8 @@
 
 ## Table des matières
 
-### Fichier SQL
-[SQL](au_bon_deal_data_export.sql)  
-
+### MPD (Fichier SQL) 
+[MPD(SQL)](au_bon_deal_data_export.sql)  
 
 ### DOC
 [Merise](doc/merise.md)  
