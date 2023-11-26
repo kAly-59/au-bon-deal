@@ -8,6 +8,10 @@
 
 ## Table des matières
 
+### Fichier SQL
+[SQL](au_bon_deal_data_export.sql)  
+
+
 ### DOC
 [Merise](doc/merise.md)  
 [Règle de gestion](doc/regle_de_gestion.md)
